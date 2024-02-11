@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(mypic.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    color:whitesmoke;
+}
+
+.row{
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+
+
+}
+.col{
+    flex-basis: 50%;
+    justify-content: center;
+    display: inline-block; /* Make the column a flex container */
+    flex-direction: column; /* Align items in a column */
+    align-items: center; /* Center items horizontally */
+}
+
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: 0.3s ease;
+    color: #000000d8;
+    font-size: x-large;
+    cursor: pointer;
+    
+    
+    
+}
+
+.card1{
+    background-image: url(places.png);
+    
+
+}
+
+.card2{
+    background-image: url(places.png);
+}
+
+.card3{
+    background-image: url(places.png);
+}
+
+.card4{
+    background-image: url(places.png);
+}
+
+.card:hover {
+    transform: scale(1.1); 
+}
+
+.col a {
+    color: #000000; 
+    text-decoration: none; 
+}
+
+.col a:hover {
+    color: #051825; /* Change this color to the desired color for the links on hover */
+}
+
+
+/* for contacts.html */
+.container2{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgb(45, 149, 150),rgb(38, 80, 115));
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+
+
+.cardc1{
+    background-image: url(fbicon.png);
+}
+
+
+.cardc2{
+    background-image: url(instaicon.png);
+}
+
+.cardc3{
+    background-image: url(linkedinicon.png);
+}
+
+
+/*Home button*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-color: rgb(23, 16, 16);
+    position: fixed; /* Fixed positioning to keep the navbar at the top */
+    width: 100%; /* Full width of the screen */
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 24px 14px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  li a:hover {
+    background-color:#333;
+  }
+
+
+.btn-warning {
+    display: inline-block;
+    color: rgb(58, 138, 230);
+    background: rgb(44, 148, 233);
+    border: 1px solid transparent;
+    padding: 8px 20px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transform: translateX(8px);
+    transition: all .55s ease;
+}
+
+
+.btn-warning:hover {
+    background: rgb(168, 53, 53);
+    border: 10px solid white;
+    border-style: inset;
+    transform: translateX(8px);
+}
+
+ 
